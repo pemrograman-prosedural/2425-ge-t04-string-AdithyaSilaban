@@ -7,13 +7,11 @@
 int main(int _argv, char **_argc) {
 
   char input[20];
-  fgets(input, sizeof(input), stdin);
+scanf("%20[^\n]", input);
 
-  int length = strlen(input);
-  if (length > 0 && input[length - 1] == '\n') {
-    input[length - 1] = '\0';
-  }
-    for (int i = 0; i < length - 1; i++) {
+
+
+    for (int i = 0; i < strlen(input); i++) {
       printf("%03d", input[i]);
     } 
     
