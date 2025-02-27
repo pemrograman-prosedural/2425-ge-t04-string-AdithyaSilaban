@@ -15,7 +15,7 @@ int main(int _argv, char **_argc) {
   }
     for (int i = 0; i < length - 1; i++) {
       printf("%03d", input[i]);
-    }
+    } 
     
   printf("013");
 
