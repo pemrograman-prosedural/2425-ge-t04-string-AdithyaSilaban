@@ -17,8 +17,8 @@ int main(int _argv, char **_argc) {
       printf("%03d", input[i]);
     }
     
-    print("013");
-    
+  print("013");
+
 
 
   return 0;
